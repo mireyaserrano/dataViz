@@ -16,6 +16,8 @@ c = (
         tooltip = ["a", "b", "c"]
     )
 )
+#set the title of the streamlit app as "interactive altair chart in streamlit"
+st.title("Interactive Altair Chart in Streamlit")
 
 st.altair_chart(c)
 
